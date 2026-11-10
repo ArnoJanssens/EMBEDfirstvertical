@@ -1,0 +1,6 @@
+hdl/VGA_pattern.v 
+hdl/VGA_timings.v 
+hdl/RGB_concat.v 
+hdl/dino_mem.v
+hdl/dino.mem
+hdl/design_1.tcl source

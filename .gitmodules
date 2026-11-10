@@ -1,0 +1,6 @@
+[submodule "Hog"]
+	path = Hog
+	url = https://github.com/hog-cern/Hog.git
+[submodule "External/vivado-library"]
+	path = External/vivado-library
+	url = https://github.com/Digilent/vivado-library.git

@@ -1,0 +1,8 @@
+git init -b main
+git status
+git add .
+git submodule update --init --recursive
+git status 
+git commit -m "initial commit"
+git remote add origin <url>
+git push -u origin main

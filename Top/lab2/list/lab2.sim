@@ -1,0 +1,8 @@
+#Simulator xsim
+
+[files]
+
+
+[properties]
+ACTIVE=1
+XSIM.SIMULATE.RUNTIME=all
