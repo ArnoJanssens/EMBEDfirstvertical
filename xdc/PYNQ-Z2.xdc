@@ -15,8 +15,7 @@ set_property PACKAGE_PIN R18 [get_ports bclk_out]
 set_property PACKAGE_PIN T17 [get_ports lrclk_out]
 
 set_property PACKAGE_PIN F17 [get_ports sdata_in] 
-set_property
- PACKAGE_PIN G18 [get_ports sdata_out]
+set_property PACKAGE_PIN G18 [get_ports sdata_out]
 
 set_property IOSTANDARD LVCMOS33 [get_ports mclk_out]
 set_property IOSTANDARD LVCMOS33 [get_ports bclk_out]
