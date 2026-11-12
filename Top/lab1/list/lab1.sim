@@ -1,9 +1,0 @@
-#Simulator xsim
-
-[files]
-tb/tb_VGA_timings.v
-
-[properties]
-top=tb_VGA_timings
-ACTIVE=1
-XSIM.SIMULATE.RUNTIME=all

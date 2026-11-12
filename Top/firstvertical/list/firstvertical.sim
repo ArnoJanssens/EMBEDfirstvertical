@@ -1,9 +1,9 @@
 #Simulator xsim
 
 [files]
-
+tb/i2sreceivertb.v
+tb/i2stransmittertb.v
 
 [properties]
-
 ACTIVE=1
 XSIM.SIMULATE.RUNTIME=all

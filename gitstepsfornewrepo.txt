@@ -1,8 +1,38 @@
+# 1. Remove Git metadata from the copied repository
+rm -rf .git
+
+# 2. Remove the old submodule directories and configuration
+# WARNING: This deletes any local modifications inside these directories.
+rm -rf Hog
+rm -rf External/vivado-library
+rm -f .gitmodules
+
+# 3. Initialize a new Git repository
 git init -b main
-git status
-git add .
+
+# 4. Add the Hog submodule
+git submodule add https://github.com/hog-cern/Hog.git Hog
+
+# 5. Add the Digilent Vivado library submodule
+git submodule add https://github.com/Digilent/vivado-library.git External/vivado-library
+
+# 6. Initialize and update all submodules recursively
 git submodule update --init --recursive
-git status 
-git commit -m "initial commit"
-git remote add origin <url>
+
+# 7. Check repository status
+git status
+
+# 8. Stage all project files
+git add .
+
+# 9. Check staged changes
+git status
+
+# 10. Create initial commit
+git commit -m "Initial commit"
+
+# 11. Connect to the remote repository
+git remote add origin <YOUR_REPOSITORY_URL>
+
+# 12. Push to GitHub
 git push -u origin main
