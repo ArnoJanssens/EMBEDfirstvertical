@@ -11,7 +11,8 @@
 // Tool Versions: 
 // Description: 
 // 
-// Dependencies: Also based on Yuri Cauwerts tutorial
+// Dependencies: Also based on Yuri Cauwerts tutorial, some changes to ensure 
+// atomic L/R channel value copy
 // 
 // Revision:
 // Revision 0.01 - File Created
