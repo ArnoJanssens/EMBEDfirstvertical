@@ -3,6 +3,7 @@
 [files]
 tb/i2sreceivertb.v
 tb/i2stransmittertb.v
+tb/tb_audio_buffer.v
 
 [properties]
 ACTIVE=1
